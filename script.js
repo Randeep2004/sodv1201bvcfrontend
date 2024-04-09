@@ -42,7 +42,6 @@ function displayConfirmation(data) {
             <p>Fee: ${data.fee}</p>
         `;
         confirmationContainer.style.display = 'block';
-        document.getElementById("registrationForm").style.display="none";
     } else {
         console.error('Confirmation container not found or is null');
         // Handle the error (e.g., display a message to the user)
